@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0093)http://ptgmedia.pearsoncmg.com/images/9780321714114/errata/9780321714114_errata_10-31-12.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>C++ Primer errata</title>
+
+<meta content="MSHTML 6.00.2900.2668" name="GENERATOR"></head>
+<body bgcolor="#f0f0f0">
+
+<h1> C++ Primer Errata</h1><em>Last modified 9 October 2012</em>
+<p>
+Every book has bugs in it, and 
+<cite>C++ Primer</cite> is no exception. 
+This page presents all the bugs that have come to our attention.
+All of these errors will be corrected in the 
+Second printing, October 2012.
+
+Many thanks to the careful readers who notified us of these problems!
+</p>
+<h2>Technical errors corrected in the second printing</h2>
+<ul>
+<li>Page 475:
+The <tt>begin</tt> and <tt>end</tt> members of class
+<tt>StrBlob</tt> should be defined outside the class body.
+They can't be defined until class <tt>StrBlobPtr</tt>
+is complete.
+</li><li>Page 522:
+The <tt>remove_from_Folders</tt> member correctly
+removes pointers to itself from each of its 
+corresponding <tt>Folder</tt>s, but it should
+<tt>clear</tt> its own <tt>folders</tt> member as well.
+</li><li>Pages 525–528:
+The <tt>alloc</tt> member of <tt>StrVec</tt> should
+be a static member of the class, not a data member
+of each object.
+To fix this error, add the <tt>static</tt>
+keyword to the declaration of <tt>alloc</tt>
+inside the <tt>StrVec</tt> class and provide
+a definition of the form
+<ol><tt>
+allocator&lt;string&gt; StrVec::alloc;
+</tt></ol>
+inside the implementation file for <tt>StrVec</tt>.
+</li><li>Page 567:
+In the <tt>StrBlobPtr::operator--()</tt> function,
+the call to check should pass <tt>curr</tt> as the first
+argument, not <tt>-1</tt>.
+</li><li>Page 762:
+The
+<tt>EOF</tt> preprocessor variable is defined
+in the <tt>cstdio</tt> header not <tt>iostream</tt>.
+</li></ul>
+
+<h2>Clarifications and improvements made in the second printing</h2>
+<ul>
+<li>Page 175:
+The <tt>scores</tt> <tt>vector</tt> should be defined as 
+<tt>const</tt> because we do not want the elements
+in <tt>scores</tt> to be changed.
+</li><li> Pages 576–578:
+The <tt>div</tt> class reuses the
+name of a C library function.
+C++ compilers are permitted to put C library names
+into the global namespace.
+To avoid potential conflicts 
+rename this class <tt>divide</tt>.
+</li><li> Page 780:
+Drop 
+"are equivalent"
+from the last sentence
+of the highlighted box titled <em>Backward Compatibility:
+Exception Specifications</em>.
+These declarations both say that <tt>recoup</tt> won't throw, but there
+are subtle distinctions between what the compiler is permitted to do
+with these declarations.
+</li></ul>
+
+<h2>Typographical errors corrected in the second printing</h2>
+<ul>
+<li> Pages xxvi and 22 the correct web address for the
+book code is <a href="http://www.informit.com/title/0321714113">http://www.informit.com/title/0321714113</a>
+</li><li> Page 155:
+The explanation of why we use an <tt>unsigned</tt> <tt>long</tt>
+rather than an <tt>int</tt> 
+should say that we need "at least 27" bits, not
+that we need "at least 17" bits.
+</li><li>Page 158: The last sentence before the exercises for <tt>4.10</tt>
+should say that we 
+"reset the current element" not the "next element".
+</li><li>Page 177:
+The second comment in the first two code examples should 
+include <tt>7</tt> as a grade that will get a minus.
+</li><li> Page 225: In the third sentence before the <i>Tip</i>
+box, should read "<tt>string</tt> named <tt>ret</tt>"
+not  "<tt>string</tt> named <tt>s</tt>".
+</li><li>Page 229:
+The type alias declaration in the code example at the top of the page 
+should define <tt>arrT</tt> not <tt>arrtT</tt> and the
+last comment in that example should
+say that "<tt>func</tt> returns a pointer 
+to an array of ten <tt>int</tt>s" not five <tt>int</tt>s.
+</li><li> Page 236: Last sentence before the last code example
+should be 
+"For example,
+to override the default for <tt>backgrnd</tt>,
+we must also supply arguments for <tt>ht</tt> and <tt>wid</tt>:"
+</li><li>Page 243:
+Replace "parameter" at the end of the last bullet
+by "argument in the call".
+</li></ul>
+
+<h2>Changes in exercises made in the second printing</h2>
+<ul>
+<li>Page 59:
+Exercise 2.25 (a) should be 
+<tt>int* ip, i, &amp;r = i;</tt>
+</li><li> Page 228: Exercise 6.35 replace 
+"<tt>fact</tt>" by 
+"<tt>factorial</tt>".
+</li><li> Page 250: Exercise 6.55 change "values" to "functions".
+</li></ul>
+</body></html>

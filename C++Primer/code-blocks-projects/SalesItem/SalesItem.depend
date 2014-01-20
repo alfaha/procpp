@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1389131077 source:c:\users\haanhh\documents\c++tutorials\c++primer\code-blocks-projects\salesitem\main.cpp
+	<iostream>
+	"Sales_item.h"
+
+1389131643 c:\users\haanhh\documents\c++tutorials\c++primer\code-blocks-projects\salesitem\sales_item.h
+	<iostream>
+	<string>
+

@@ -1,0 +1,569 @@
+# depslib dependency file v1.0
+1389448720 source:/home/aha/Projects/C++Tutorials/DesignPatternsC++Qt/Example1.7/main.cpp
+	<QApplication>
+	<QFont>
+	<QPushButton>
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/QApplication
+	"qapplication.h"
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qapplication.h
+	<QtCore/qcoreapplication.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qpoint.h>
+	<QtCore/qsize.h>
+	<QtGui/qcursor.h>
+	<QtGui/qdesktopwidget.h>
+	<QtGui/qwidget.h>
+	<QtGui/qpalette.h>
+	<QtGui/qrgb.h>
+	<QtGui/qtransportauth_qws.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qcoreapplication.h
+	<QtCore/qobject.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qeventloop.h>
+	<QtCore/qstringlist.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qobject.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qcoreevent.h>
+	<QtCore/qscopedpointer.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qobjectdefs.h
+	<QtCore/qnamespace.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qnamespace.h
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qglobal.h
+	<stddef.h>
+	<QtCore/qconfig.h>
+	<algorithm>
+	<AvailabilityMacros.h>
+	<utility>
+	<e32def.h>
+	<QtCore/qfeatures.h>
+
+1387713308 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qconfig.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qfeatures.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qstring.h
+	<QtCore/qchar.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qatomic.h>
+	<QtCore/qnamespace.h>
+	<Qt3Support/q3cstring.h>
+	<string>
+	<stdarg.h>
+	<QtCore/qstringbuilder.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qchar.h
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qbytearray.h
+	<QtCore/qatomic.h>
+	<QtCore/qnamespace.h>
+	<string.h>
+	<stdarg.h>
+	<QtCore/qstring.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qbasicatomic.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qbasicatomic.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic_bootstrap.h>
+	<QtCore/qatomic_arch.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_bootstrap.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_arch.h
+	"QtCore/qglobal.h"
+	"QtCore/qatomic_integrity.h"
+	"QtCore/qatomic_vxworks.h"
+	"QtCore/qatomic_alpha.h"
+	"QtCore/qatomic_arm.h"
+	"QtCore/qatomic_armv6.h"
+	"QtCore/qatomic_avr32.h"
+	"QtCore/qatomic_bfin.h"
+	"QtCore/qatomic_generic.h"
+	"QtCore/qatomic_i386.h"
+	"QtCore/qatomic_ia64.h"
+	"QtCore/qatomic_macosx.h"
+	"QtCore/qatomic_mips.h"
+	"QtCore/qatomic_parisc.h"
+	"QtCore/qatomic_powerpc.h"
+	"QtCore/qatomic_s390.h"
+	"QtCore/qatomic_sparc.h"
+	"QtCore/qatomic_windows.h"
+	"QtCore/qatomic_windowsce.h"
+	"QtCore/qatomic_x86_64.h"
+	"QtCore/qatomic_symbian.h"
+	"QtCore/qatomic_sh.h"
+	"QtCore/qatomic_sh4a.h"
+	"QtCore/qatomic_generic.h"
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_integrity.h
+	<INTEGRITY.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_vxworks.h
+	<QtCore/qatomic_powerpc.h>
+	<vxWorksCommon.h>
+	<taskLib.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_powerpc.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_alpha.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_arm.h
+	"QtCore/qatomic_armv7.h"
+	"QtCore/qatomic_armv6.h"
+	"QtCore/qatomic_armv5.h"
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_armv7.h
+	"QtCore/qatomic_armv6.h"
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_armv6.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_armv5.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_avr32.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_bfin.h
+	<asm/fixed_code.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_generic.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_i386.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_ia64.h
+	<ia64intrin.h>
+	<ia64/sys/inline.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_macosx.h
+	<QtCore/qatomic_x86_64.h>
+	<QtCore/qatomic_i386.h>
+	<QtCore/qatomic_powerpc.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_x86_64.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_mips.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_parisc.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_s390.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_sparc.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_windows.h
+	"QtCore/qatomic_i386.h"
+	"QtCore/qatomic_x86_64.h"
+	<winbase.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_windowsce.h
+	<QtCore/qglobal.h>
+	"QtCore/qatomic_windows.h"
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_symbian.h
+	<QtCore/qglobal.h>
+	<e32std.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_sh.h
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qatomic_sh4a.h
+
+1370582218 /usr/local/Trolltech/Qt-4.8.5/include/Qt3Support/q3cstring.h
+	<QtCore/qbytearray.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qstringbuilder.h
+	<QtCore/qstring.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qmap.h>
+	<string.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qmap.h
+	<QtCore/qatomic.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<map>
+	<new>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qiterator.h
+	<QtCore/qglobal.h>
+	<ciso646>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qlist.h
+	<QtCore/qiterator.h>
+	<QtCore/qatomic.h>
+	<QtCore/qalgorithms.h>
+	<iterator>
+	<list>
+	<iterator>
+	<initializer_list>
+	<new>
+	<limits.h>
+	<string.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qalgorithms.h
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qcoreevent.h
+	<QtCore/qnamespace.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qobjectdefs.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qscopedpointer.h
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qeventloop.h
+	<QtCore/qobject.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qstringlist.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qdatastream.h>
+	<QtCore/qlist.h>
+	<QtCore/qregexp.h>
+	<QtCore/qstring.h>
+	<QtCore/qstringmatcher.h>
+	<Qt3Support/q3valuelist.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qdatastream.h
+	<QtCore/qscopedpointer.h>
+	<QtCore/qiodevice.h>
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qiodevice.h
+	<QtCore/qobject.h>
+	<QtCore/qobjectdefs.h>
+	<QtCore/qscopedpointer.h>
+	<QtCore/qstring.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qregexp.h
+	<QtCore/qstring.h>
+	<new>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qstringmatcher.h
+	<QtCore/qstring.h>
+
+1370582218 /usr/local/Trolltech/Qt-4.8.5/include/Qt3Support/q3valuelist.h
+	<QtCore/qalgorithms.h>
+	<QtCore/qdatastream.h>
+	<QtCore/qlinkedlist.h>
+	<QtCore/qlist.h>
+	<iterator>
+	<list>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qlinkedlist.h
+	<QtCore/qiterator.h>
+	<QtCore/qatomic.h>
+	<iterator>
+	<list>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qwindowdefs.h
+	<QtCore/qobjectdefs.h>
+	<QtCore/qnamespace.h>
+	<QtGui/qmacdefines_mac.h>
+	<QtGui/qwindowdefs_win.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qmacdefines_mac.h
+	<QtCore/qglobal.h>
+	<Cocoa/Cocoa.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qwindowdefs_win.h
+	<QtCore/qglobal.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qpoint.h
+	<QtCore/qnamespace.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qsize.h
+	<QtCore/qnamespace.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qcursor.h
+	<QtCore/qpoint.h>
+	<QtGui/qwindowdefs.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qdesktopwidget.h
+	<QtGui/qwidget.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qwidget.h
+	<QtCore/qconfig.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qobject.h>
+	<QtCore/qmargins.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qpalette.h>
+	<QtGui/qfont.h>
+	<QtGui/qfontmetrics.h>
+	<QtGui/qfontinfo.h>
+	<QtGui/qsizepolicy.h>
+	<QtGui/qregion.h>
+	<QtGui/qbrush.h>
+	<QtGui/qcursor.h>
+	<QtGui/qkeysequence.h>
+	<QtGui/qplatformwindowformat_qpa.h>
+	<QtGui/qevent.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qmargins.h
+	<QtCore/qnamespace.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpaintdevice.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qrect.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qrect.h
+	<QtCore/qsize.h>
+	<QtCore/qpoint.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpalette.h
+	<QtGui/qwindowdefs.h>
+	<QtGui/qcolor.h>
+	<QtGui/qbrush.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qcolor.h
+	<QtGui/qrgb.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstringlist.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qrgb.h
+	<QtCore/qglobal.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qbrush.h
+	<QtCore/qpair.h>
+	<QtCore/qpoint.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+	<QtGui/qcolor.h>
+	<QtGui/qmatrix.h>
+	<QtGui/qtransform.h>
+	<QtGui/qimage.h>
+	<QtGui/qpixmap.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qpair.h
+	<QtCore/qdatastream.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qvector.h
+	<QtCore/qiterator.h>
+	<QtCore/qatomic.h>
+	<QtCore/qalgorithms.h>
+	<QtCore/qlist.h>
+	<iterator>
+	<vector>
+	<stdlib.h>
+	<string.h>
+	<initializer_list>
+	<QtCore/QPointF>
+	<QtCore/QPoint>
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/QPointF
+	"qpoint.h"
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/QPoint
+	"qpoint.h"
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qmatrix.h
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+	<QtGui/qwmatrix.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpolygon.h
+	<QtCore/qvector.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qregion.h
+	<QtCore/qatomic.h>
+	<QtCore/qrect.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qdatastream.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qline.h
+	<QtCore/qpoint.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qwmatrix.h
+	<QtGui/qmatrix.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qtransform.h
+	<QtGui/qmatrix.h>
+	<QtGui/qpainterpath.h>
+	<QtGui/qpolygon.h>
+	<QtGui/qregion.h>
+	<QtGui/qwindowdefs.h>
+	<QtCore/qline.h>
+	<QtCore/qpoint.h>
+	<QtCore/qrect.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpainterpath.h
+	<QtGui/qmatrix.h>
+	<QtCore/qglobal.h>
+	<QtCore/qrect.h>
+	<QtCore/qline.h>
+	<QtCore/qvector.h>
+	<QtCore/qscopedpointer.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qimage.h
+	<QtGui/qtransform.h>
+	<QtGui/qpaintdevice.h>
+	<QtGui/qrgb.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qrect.h>
+	<QtCore/qstring.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpixmap.h
+	<QtGui/qpaintdevice.h>
+	<QtGui/qcolor.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+	<QtGui/qimage.h>
+	<QtGui/qtransform.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qsharedpointer.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qshareddata.h>
+	<QtCore/qsharedpointer_impl.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qshareddata.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qsharedpointer_impl.h
+	<new>
+	<QtCore/qatomic.h>
+	<QtCore/qobject.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qfont.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qstring.h>
+	<QtCore/qsharedpointer.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qfontmetrics.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+	<QtCore/qrect.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qfontinfo.h
+	<QtGui/qfont.h>
+	<QtCore/qsharedpointer.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qsizepolicy.h
+	<QtCore/qobject.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qkeysequence.h
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qplatformwindowformat_qpa.h
+	<QtGui/QPlatformWindow>
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/QPlatformWindow
+	"qplatformwindow_qpa.h"
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qplatformwindow_qpa.h
+	<QtCore/qscopedpointer.h>
+	<QtCore/qrect.h>
+	<QtCore/qstring.h>
+	<QtGui/qwindowdefs.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qevent.h
+	<QtGui/qwindowdefs.h>
+	<QtCore/qobject.h>
+	<QtGui/qregion.h>
+	<QtCore/qnamespace.h>
+	<QtCore/qstring.h>
+	<QtGui/qkeysequence.h>
+	<QtCore/qcoreevent.h>
+	<QtGui/qmime.h>
+	<QtGui/qdrag.h>
+	<QtCore/qvariant.h>
+	<QtCore/qmap.h>
+	<QtCore/qset.h>
+	<QtCore/qfile.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qmime.h
+	<QtCore/qmimedata.h>
+	<QtCore/qvariant.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qmimedata.h
+	<QtCore/qvariant.h>
+	<QtCore/qobject.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qvariant.h
+	<QtCore/qatomic.h>
+	<QtCore/qbytearray.h>
+	<QtCore/qlist.h>
+	<QtCore/qmetatype.h>
+	<QtCore/qmap.h>
+	<QtCore/qhash.h>
+	<QtCore/qstring.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qmetatype.h
+	<QtCore/qglobal.h>
+	<QtCore/qatomic.h>
+	<QtCore/qdatastream.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qhash.h
+	<QtCore/qatomic.h>
+	<QtCore/qchar.h>
+	<QtCore/qiterator.h>
+	<QtCore/qlist.h>
+	<QtCore/qpair.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qdrag.h
+	<QtCore/qobject.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qset.h
+	<QtCore/qhash.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qfile.h
+	<QtCore/qiodevice.h>
+	<QtCore/qstring.h>
+	<stdio.h>
+	<f32file.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qtransportauth_qws.h
+	<QtCore/qglobal.h>
+	<QtCore/qobject.h>
+	<QtCore/qhash.h>
+	<QtCore/qstring.h>
+	<QtCore/qbuffer.h>
+	<QtCore/qpointer.h>
+	<sys/types.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qbuffer.h
+	<QtCore/qiodevice.h>
+	<QtCore/qbytearray.h>
+
+1370582212 /usr/local/Trolltech/Qt-4.8.5/include/QtCore/qpointer.h
+	<QtCore/qobject.h>
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/QFont
+	"qfont.h"
+
+1370582201 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/QPushButton
+	"qpushbutton.h"
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qpushbutton.h
+	<QtGui/qabstractbutton.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qabstractbutton.h
+	<QtGui/qicon.h>
+	<QtGui/qkeysequence.h>
+	<QtGui/qwidget.h>
+
+1370582219 /usr/local/Trolltech/Qt-4.8.5/include/QtGui/qicon.h
+	<QtCore/qglobal.h>
+	<QtCore/qsize.h>
+	<QtCore/qlist.h>
+	<QtGui/qpixmap.h>
+

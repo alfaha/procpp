@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1389449360 source:/home/aha/Projects/C++Tutorials/DesignPatternsC++Qt/example17cpp/main.cpp
+	<iostream>
+	<string>
+
