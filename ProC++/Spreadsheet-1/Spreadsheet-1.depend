@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1390223870 source:/home/aha/Projects/C++Tutorials/github-alfaha/ProC++/Spreadsheet-1/main.cpp
+	<iostream>
+
+1390310015 source:/home/aha/Projects/C++Tutorials/github-alfaha/ProC++/Spreadsheet-1/src/SpreadsheetCell.cpp
+	"SpreadsheetCell.h"
+	<iostream>
+	<sstream>
+

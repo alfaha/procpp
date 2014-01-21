@@ -1,6 +1,7 @@
 #ifndef SPREADSHEETCELL_H
 #define SPREADSHEETCELL_H
-
+#include <string>
+using std::string;
 
 class SpreadsheetCell
 {
@@ -17,7 +18,7 @@ class SpreadsheetCell
     protected:
         double mValue;
         string doubleToString(double inValue) const;
-        double stringToDouble(string inString); const;
+        double stringToDouble(string inString) const;
         string mString;
 
     private:

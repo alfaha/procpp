@@ -1,6 +1,8 @@
 #include "SpreadsheetCell.h"
+
 #include <iostream>
 #include <sstream>
+
 
 using namespace std;
 
@@ -30,7 +32,7 @@ double SpreadsheetCell::getValue() const
     return mValue;
 }
 
-void SpreadsheetCell::setTring(string inString)
+void SpreadsheetCell::setString(string inString)
 {
     mString = inString;
     mValue = stringToDouble(mString);
@@ -46,7 +48,7 @@ string SpreadsheetCell::getString() const
 string SpreadsheetCell::doubleToString(double inValue) const
 {
     ostringstream ostr;
-    ostr << inValue
+    ostr << inValue;
     return ostr.str();
 }
 
