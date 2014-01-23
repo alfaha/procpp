@@ -7,18 +7,22 @@ class SpreadsheetCell
 {
     public:
         SpreadsheetCell();
+        SpreadsheetCell(double initialValue);
+        SpreadsheetCell(const string& initialValue);
+        SpreadsheetCell(const SpreadsheetCell& src);
+
         virtual ~SpreadsheetCell();
 
         void setValue(double inValue);
         double getValue() const;
-        void setString(string inString);
+        void setString(const string& inString);
         string getString() const;
 
 
     protected:
         double mValue;
         string doubleToString(double inValue) const;
-        double stringToDouble(string inString) const;
+        double stringToDouble(const string& inString) const;
         string mString;
 
     private:
